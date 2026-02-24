@@ -1,0 +1,93 @@
+/* ===== Ogólne ustawienia ===== */
+body {
+  font-family: Arial, sans-serif; /* prosty i czytelny font */
+  margin: 0; /* usuwa domyślne marginesy */
+  padding: 0;
+  background-color: #f5f5f5; /* jasne tło */
+  color: #333; /* ciemny tekst */
+}
+
+/* ===== Nagłówek ===== */
+h1 {
+  text-align: center; /* wyrównanie nagłówka do środka */
+  margin-top: 20px;
+}
+
+/* ===== Nawigacja ===== */
+nav {
+  background-color: #444; /* ciemne menu */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none; /* usuwa punkty listy */
+  display: flex; /* linki w rzędzie */
+  justify-content: center; /* wyśrodkowanie menu */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px; /* odstępy między linkami */
+}
+
+nav ul li a {
+  color: white; /* kolor tekstu */
+  text-decoration: none; /* usuwa podkreślenie */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* efekt po najechaniu */
+}
+
+/* ===== Sekcje ===== */
+section {
+  max-width: 800px;
+  margin: 20px auto; /* wyśrodkowanie */
+  padding: 15px;
+  background-color: white; /* białe tło */
+  border-radius: 5px; /* zaokrąglone rogi */
+}
+
+/* ===== Tabela ===== */
+table {
+  width: 100%;
+  border-collapse: collapse; /* usuwa podwójne linie */
+}
+
+th, td {
+  border: 1px solid #444; /* cienka ramka */
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #444; /* kolor nagłówka tabeli */
+  color: white; /* tekst nagłówka */
+}
+
+/* ===== Listy ===== */
+ul {
+  padding-left: 20px; /* wcięcie dla list punktowanych */
+}
+
+/* ===== Galeria ===== */
+.galeria {
+  display: flex; /* obrazki w rzędzie */
+  gap: 10px; /* odstępy między obrazkami */
+  justify-content: center; /* wyśrodkowanie */
+}
+
+.galeria img {
+  width: 30%; /* każdy obrazek zajmuje 1/3 szerokości */
+  border-radius: 5px;
+}
+
+/* ===== Stopka ===== */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  margin-top: 20px;
+}
